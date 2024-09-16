@@ -210,7 +210,7 @@ const SideNavigation = ({
                       asChild
                       className="rounded-sm relative"
                     >
-                      <Image src={item.icon} layout="fill" objectFit="cover" />
+                      <Image src={item.icon} layout="fill" objectFit="cover" alt={item.name}/>
                     </AspectRatio.Root>
                   </div>
                   <section
@@ -233,7 +233,7 @@ const SideNavigation = ({
               </NavLinkTooltip>
             ))}
             <NavLinkTooltip disabled={!mainSidebarHidden} text="Add Class">
-              <div
+              <div role="button" tabIndex={0}
                 className={`w-full rounded-sm relative transition overflow-hidden cursor-pointer px-1 flex items-center group justify-start h-10`}
               >
                 <div
@@ -314,7 +314,7 @@ const SideNavigation = ({
                     setTheme(currentTheme === "dark" ? "light" : "dark");
                   }}
                 >
-                  <div className="flex space-x-4">
+                  <div className="flex space-x-4" role="button" tabIndex={0}>
                     <div className="w-5 h-5 min-w-[20px] relative">
                       <div
                         className={`absolute top-0 left-0 w-full h-full transition-all ${
@@ -362,7 +362,7 @@ const SideNavigation = ({
           </div>
           {/* Settings */}
           <NavLinkTooltip text="Settings" disabled={!mainSidebarHidden}>
-            <div
+            <div role="button" tabIndex={0}
               className={`w-full cursor-pointer h-12 rounded-md overflow-hidden flex items-center justify-start px-[14px] group space-x-4 text-nav-inactive-light hover:bg-emerald-500/5`}
             >
               <div className="w-5 h-5 min-w-[20px]">{icons.cog(false)}</div>
@@ -379,18 +379,18 @@ const SideNavigation = ({
           <Divider />
           {/* Collapse/Expand Button */}
           <NavLinkTooltip text={"Expand"} disabled={!mainSidebarHidden}>
-            <div
+            <div role="button" tabIndex={0}
               onClick={() => toggleMainSidebar(!mainSidebarHidden)}
               className={`w-full cursor-pointer h-12 rounded-md overflow-hidden flex items-center justify-start px-[14px] group space-x-4 text-nav-inactive-light hover:bg-emerald-500/5`}
             >
-              <div
+              <div 
                 className={`w-5 h-5 min-w-[20px] transition-transform ${
                   !mainSidebarHidden ? "rotate-180" : ""
                 }`}
               >
                 {icons.expandArrow(false)}
               </div>
-              <div
+              <div 
                 className={`text-sm group-hover:text-white transition text-ellipsis whitespace-nowrap ${
                   !mainSidebarHidden ? "opacity-100" : "opacity-0"
                 }`}

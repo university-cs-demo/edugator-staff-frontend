@@ -4,6 +4,7 @@ export const EdugatorLogo = () => (
     viewBox="0 0 25 5"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
+    role="none"
   >
     <path
       fillRule="evenodd"
@@ -21,6 +22,7 @@ export const icons: Record<string, (active: boolean) => JSX.Element> = {
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
+      role="none"
     >
       <path
         fillRule="evenodd"
@@ -36,6 +38,7 @@ export const icons: Record<string, (active: boolean) => JSX.Element> = {
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
+      role="none"
     >
       <path
         fillRule="evenodd"
@@ -57,6 +60,7 @@ export const icons: Record<string, (active: boolean) => JSX.Element> = {
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
+      role="none"
     >
       <path
         d="M2.56529 0.307575C7.07157 0.842213 11.037 2.61669 12 3.57969C12.963 2.61669 16.9284 0.842458 21.4347 0.307819C22.8449 0.1405 24 1.30264 24 2.7228V16.4371C24 17.8572 22.8394 18.989 21.4421 19.2427C18.2863 19.8156 15.6616 21.329 13.9872 22.5252C12.8316 23.3507 11.1672 23.3496 10.0116 22.5242C8.33712 21.3282 5.71294 19.8153 2.55794 19.2424C1.16062 18.9887 0 17.8571 0 16.4368V2.72255C0 1.30239 1.15502 0.140256 2.56529 0.307575Z"
@@ -77,6 +81,7 @@ export const icons: Record<string, (active: boolean) => JSX.Element> = {
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
+      role="none"
     >
       <path
         fillRule="evenodd"
@@ -104,6 +109,7 @@ export const icons: Record<string, (active: boolean) => JSX.Element> = {
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
+      role="none"
     >
       <path
         fillRule="evenodd"
@@ -130,6 +136,7 @@ export const icons: Record<string, (active: boolean) => JSX.Element> = {
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
+      role="none"
     >
       <path
         fillRule="evenodd"
@@ -145,6 +152,7 @@ export const icons: Record<string, (active: boolean) => JSX.Element> = {
       viewBox="0 0 25 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
+      role="none"
     >
       <path
         fillRule="evenodd"
@@ -160,6 +168,7 @@ export const icons: Record<string, (active: boolean) => JSX.Element> = {
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
+      role="none"
     >
       <path
         fillRule="evenodd"
@@ -176,6 +185,7 @@ export const icons: Record<string, (active: boolean) => JSX.Element> = {
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
+      role="none"
     >
       <path
         fillRule="evenodd"
@@ -197,6 +207,7 @@ export const icons: Record<string, (active: boolean) => JSX.Element> = {
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
+      role="none"
     >
       <path
         fillRule="evenodd"
@@ -212,6 +223,7 @@ export const icons: Record<string, (active: boolean) => JSX.Element> = {
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
+      role="none"
     >
       <path
         fillRule="evenodd"
@@ -243,6 +255,7 @@ export const icons: Record<string, (active: boolean) => JSX.Element> = {
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
+      role="none"
     >
       <path
         fillRule="evenodd"
@@ -258,6 +271,7 @@ export const icons: Record<string, (active: boolean) => JSX.Element> = {
       viewBox="0 0 25 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
+      role="none"
     >
       <path
         d="M12.3371 17.5716C15.4141 17.5716 17.9085 15.0772 17.9085 12.0001C17.9085 8.92312 15.4141 6.42871 12.3371 6.42871C9.2601 6.42871 6.76569 8.92312 6.76569 12.0001C6.76569 15.0772 9.2601 17.5716 12.3371 17.5716Z"
@@ -277,6 +291,7 @@ export const icons: Record<string, (active: boolean) => JSX.Element> = {
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
+      role="none"
     >
       <path
         fillRule="evenodd"

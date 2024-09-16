@@ -69,7 +69,7 @@ const ContentSidebar = ({
         {/* Header */}
         <div className="w-full h-20 min-h-[5rem] flex items-center px-6 justify-between">
           <h1 className="text-white font-dm font-medium text-lg">Exercises</h1>
-          <div
+          <div role="button" tabIndex={0}
             onClick={() => {
               toggleContentSidebar(!contentSidebarHidden);
             }}
@@ -93,7 +93,7 @@ const ContentSidebar = ({
               {toggleExercisesLinks.map((link) => (
                 <Tabs.Trigger
                   key={link.id}
-                  className="px-3 py-3 transition data-[state=active]:border-b data-[state=inactive]:border-b-slate-400 data-[state=active]:border-b-emerald-500 flex-1 flex items-center justify-center text-sm font-dm leading-none text-slate-500 select-none hover:text-white data-[state=active]:text-white outline-none cursor-default"
+                  className="px-3 py-3 transition data-[state=active]:border-b data-[state=inactive]:text-white border-b-slate-500 data-[state=active]:border-b-emerald-400 flex-1 flex items-center justify-center text-sm font-dm leading-none text-slate-500 select-none hover:bg-blue-500/10 data-[state=active]:text-white outline-none cursor-default"
                   value={link.id}
                 >
                   {link.text}

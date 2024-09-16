@@ -5,6 +5,7 @@ export const icons: Record<string, JSX.Element> = {
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
+      role="button"
     >
       <path
         fillRule="evenodd"
@@ -20,6 +21,7 @@ export const icons: Record<string, JSX.Element> = {
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
+      role="button"
     >
       <path
         fillRule="evenodd"
@@ -35,6 +37,7 @@ export const icons: Record<string, JSX.Element> = {
       viewBox="0 0 25 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
+      role="button"
     >
       <path
         fillRule="evenodd"
@@ -50,6 +53,7 @@ export const icons: Record<string, JSX.Element> = {
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
+      role="button"
     >
       <path
         fillRule="evenodd"
